@@ -20,8 +20,14 @@ const CloneItem = () => {
 	const xhr = new XMLHttpRequest()
 	xhr.open("POST", "./server/clone_item.controller.php", true)
 	xhr.onload = (response) => {
+		if(response.currentTarget.response > 0){
+			$("#result").removeAttr("class").attr("class", "green")
+			$("#result.green").html("Clonacion exitosa!")
+		}else{
+			$("#result").removeAttr("class").attr("class", "red")
+			$("#result.red").html("Uups!, Algo salio mal!")
+		}
 		console.log(response.currentTarget.response)
-		//console.log(JSON.parse(response.currentTarget.response))
 	}
 	xhr.send(data)
 }

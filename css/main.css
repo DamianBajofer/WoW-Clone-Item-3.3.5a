@@ -9,3 +9,15 @@
     width:35vmin;
     cursor:pointer;
 }
+#result.green{
+    font-size:2vmin;
+    margin-left:15vmin;
+    color:rgb(45, 194, 0);
+    text-shadow:0vmin 0vmin 0.1vmin rgba(0,0,0,1);
+}
+#result.red{
+    font-size:2vmin;
+    margin-left:15vmin;
+    color:rgb(163, 2, 2);
+    text-shadow:0vmin 0vmin 0.1vmin rgba(0,0,0,1);
+}
