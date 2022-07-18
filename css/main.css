@@ -1,0 +1,11 @@
+#clone{
+    background-color:#00b7ff;
+    border:1px solid rgba(0,0,0,0.5);
+    text-align: center;
+    color:rgba(255,255,255,1);
+    text-shadow:0vmin 0vmin 0.5vmin rgba(0,0,0,1);
+    padding:1vmin;
+    margin:2vmin 0px 20px 5vmin;
+    width:35vmin;
+    cursor:pointer;
+}
